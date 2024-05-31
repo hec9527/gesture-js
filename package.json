@@ -1,15 +1,25 @@
 {
-  "name": "gesture-js",
-  "private": true,
+  "name": "@hec9527/gestures-js",
   "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build && tsc",
     "preview": "vite preview"
   },
+  "author": {
+    "name": "hec9527",
+    "email": "hec9527@foxmail.com",
+    "url": "https://hec9527.top"
+  },
+  "maintainers": [
+    "hec9527 <hec9527@foxmail.com>"
+  ],
   "devDependencies": {
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
